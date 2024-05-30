@@ -9,48 +9,41 @@
     justify-content: space-around;
     background-color: #eee;
 }
-
-.divHeadMenuButtonHome {
-    width: 240;
+.divHeadMenuButtonCasing{
+    width: 236;
     height: 50;
-    text-align: center;
-    margin: 4px 2px 4px 4px;
-    padding: 10px 2px 10px 2px;
-    font-size: 32px;
+    margin: 2px 2px 2px 2px;
     background-color: #666;
+}
+.divHeadMenuButtonHome {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
     color: #f9e6ff;
 }
 
 .divHeadMenuButtonCharacter {
-    width: 240;
-    height: 50;
     text-align: center;
-    margin: 4px 2px 4px 4px;
-    padding: 10px 2px 10px 2px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 32px;
-    background-color: #666;
     color: #e6fff0;
 }
 
 .divHeadMenuButtonRule {
-    width: 240;
-    height: 50;
     text-align: center;
-    margin: 4px 2px 4px 4px;
-    padding: 10px 2px 10px 2px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 32px;
-    background-color: #666;
     color: #fff9e6;
 }
 
 .divHeadMenuButtonDistribute {
-    width: 240;
-    height: 50;
     text-align: center;
-    margin: 4px 2px 4px 4px;
-    padding: 10px 2px 10px 2px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 32px;
-    background-color: #666;
     color: #e6f0ff;
 }
 

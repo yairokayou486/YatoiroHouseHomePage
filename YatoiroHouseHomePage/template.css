@@ -1,0 +1,62 @@
+.field {
+    display: flex;
+}
+.divAllParent {
+    width: 960;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divHeadMenu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+}
+
+.divHeadMenuButtonHome {
+    width: 240;
+    height: 50;
+    text-align: center;
+    margin: 4px 2px 4px 4px;
+    padding: 10px 2px 10px 2px;
+    font-size: 32px;
+    background-color: #999;
+    color: #f9e6ff;
+}
+
+.divHeadMenuButtonCharacter {
+    width: 240;
+    height: 50;
+    text-align: center;
+    margin: 4px 2px 4px 4px;
+    padding: 10px 2px 10px 2px;
+    font-size: 32px;
+    background-color: #999;
+    color: #e6fff0;
+}
+
+.divHeadMenuButtonRule {
+    width: 240;
+    height: 50;
+    text-align: center;
+    margin: 4px 2px 4px 4px;
+    padding: 10px 2px 10px 2px;
+    font-size: 32px;
+    background-color: #999;
+    color: #fff9e6;
+}
+
+.divHeadMenuButtonDistribute {
+    width: 240;
+    height: 50;
+    text-align: center;
+    margin: 4px 2px 4px 4px;
+    padding: 10px 2px 10px 2px;
+    font-size: 32px;
+    background-color: #999;
+    color: #e6f0ff;
+}
+
+.divMain{
+    width: 960;
+}

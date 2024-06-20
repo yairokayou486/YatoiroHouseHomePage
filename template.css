@@ -60,3 +60,20 @@
 small{
     color: #bbb;
 }
+.divDistributeContainerItem{
+    background-color: #ffffff;
+    padding-left: 5px;
+    margin-left: 50px;
+}
+.divDistributeContainerMYCOE{
+    width: 960;
+    background-color: #ddeeff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.divDistributeContainerUTAU{
+    width: 960;
+    background-color: #eeddff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

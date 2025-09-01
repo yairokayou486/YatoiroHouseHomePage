@@ -1,79 +1,271 @@
 .divAllParent {
-    width: 960;
-    margin-left: auto;
-    margin-right: auto;
+	width: 960;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .divHeadMenu {
-    display: flex;
-    justify-content: space-around;
-    background-color: #eee;
+	display: flex;
+	justify-content: space-around;
+	background-color: #eee;
 }
 .divHeadMenuButtonCasing{
-    width: 236;
-    height: 50;
-    margin: 2px 2px 2px 2px;
-    background-color: #666;
+	width: 236;
+	height: 50;
+	margin: 2px 2px 2px 2px;
+	background-color: #666;
 }
 .divHeadMenuButtonHome {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 32px;
-    color: #f9e6ff;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 32px;
+	color: #f9e6ff;
 }
 
 .divHeadMenuButtonCharacter {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 32px;
-    color: #e6fff0;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 32px;
+	color: #e6fff0;
 }
 
 .divHeadMenuButtonRule {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 32px;
-    color: #fff9e6;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 32px;
+	color: #fff9e6;
 }
 
 .divHeadMenuButtonDistribute {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 32px;
-    color: #e6f0ff;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 32px;
+	color: #e6f0ff;
 }
 
 .divMain{
-    width: 960;
-    margin-left: auto;
-    margin-right: auto;
+	width: 960;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divIndexMain{
+	text-align: center;
+	width: 960;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divIndexSignatCasing{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 960;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divIndexSignatTitle{
+	text-align: right;
+	width: 90;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divIndexSignat{
+	text-align: left;
+	width: 350;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divIndexSignatSpacer{
+	width: 520;
+}
+
+.spanRedColor{
+	color: #f8472c;
 }
 
 .divRuleObj{
-    padding-left: 25px;
-    padding-bottom: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
 }
+
+.spanRuleRed{
+	color: #cc0000;
+}
+
+.spanRulePink{
+	color: #ff00bb;
+}
+
 small{
-    color: #bbb;
+	color: #bbb;
 }
+
 .divDistributeContainerItem{
-    background-color: #ffffff;
-    padding-left: 5px;
-    margin-left: 50px;
+	background-color: #ffffff;
+	padding-left: 5px;
+	margin-left: 50px;
 }
+
 .divDistributeContainerMYCOE{
-    width: 960;
-    background-color: #ddeeff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	width: 960;
+	background-color: #ddeeff;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
+
 .divDistributeContainerUTAU{
-    width: 960;
-    background-color: #eeddff;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	width: 960;
+	background-color: #eeddff;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
+
+.divDistributeContainerIllust{
+	width: 960;
+	background-color: #ddffee;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.divCharacterTieMain{
+	width: 960;
+	display: flex;
+	justify-content: center;
+	background-color: #def7ff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.divCharacterTieContent{
+	background-color: #f8fffe;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.divCharacterDescription{
+	width: 660;
+}
+
+.divCharacterDescription_scrt{
+	width: 920;
+}
+
+.divCharacterDescriptionContent{
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.divCharacterIllust{
+	width: 250;
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.spanCharacterDialogTie{
+	color: #179983;
+}
+
+.spanCharacterDialogAzusa{
+	color: #801bb3;
+}
+
+.aCharacterScrtTie{
+	color: #0d4759;
+	text-decoration:none;
+}
+
+.aCharacterScrtTie:link{
+	color: #0d4759;
+	text-decoration:none;
+}
+
+.aCharacterScrtTie:visited{
+	color: #0d4759;
+	text-decoration:none;
+}
+
+.aCharacterScrtTie:hover{
+	color: #0d4759;
+	text-decoration:none;
+}
+
+.aCharacterScrtTie:active{
+	color: #0d4759;
+	text-decoration:none;
+}
+
+.divCharacterScrtEndCasing{
+	width: 920;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.divCharacterScrtEnd{
+	width: 240;
+	text-align: center;
+	background-color: #def7ff;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ulNonPadding{
+	margin-top: 0px;
+	margin-bottom: 0px
+	padding-top: 0px;
+	padding-bottom: 0px
+}
+
+.divCharacterHiddenLinkCasing{
+	width: 580;
+}
+
+.divCharacterHiddenLink{
+	width: 88;
+	text-align: center;
+	background-color: #f5fcff;
+	margin: 0 auto;
+}
+
+.aCharacterHiddenLink{
+	color: #00000003;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:link{
+	color: #00000002;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:visited{
+	color: #00000016;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:hover{
+	color: #00000008;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:active{
+	color: #00000016;
+	text-decoration:none;
+}
+

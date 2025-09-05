@@ -255,17 +255,17 @@ small{
 }
 
 .aCharacterHiddenLink:visited{
-	color: #00000016;
+	color: #00000010;
 	text-decoration:none;
 }
 
 .aCharacterHiddenLink:hover{
-	color: #00000008;
+	color: #00000006;
 	text-decoration:none;
 }
 
 .aCharacterHiddenLink:active{
-	color: #00000016;
+	color: #00000010;
 	text-decoration:none;
 }
 

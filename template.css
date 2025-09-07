@@ -170,8 +170,6 @@ small{
 
 .divCharacterIllust{
 	width: 250;
-	display: flex;
-	align-items: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 10px;
@@ -234,14 +232,15 @@ small{
 }
 
 .divCharacterHiddenLinkCasing{
-	width: 580;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .divCharacterHiddenLink{
 	width: 88;
 	text-align: center;
 	background-color: #f5fcff;
-	margin: 0 auto;
 }
 
 .aCharacterHiddenLink{
@@ -269,3 +268,87 @@ small{
 	text-decoration:none;
 }
 
+/* ポップアップ用
+ * 参考：https://qiita.com/katsutosakae/items/202baff9750ae6f9ecf5より
+ */
+
+.imgPopupAutoResizeH{
+	max-height: 90vh;
+	max-width: 90vw;
+	object-fit: contain;
+}
+
+.labelBlue{
+	color: #00f;
+}
+
+/*popup template design*/
+.popup-background{
+	/*position size*/
+	position: fixed;
+	z-index : 100;
+	top : 0;
+	left : 0;
+	height : 100vh;
+	width : 100vw;
+	
+	/*design*/
+	background-color: gray;
+	opacity : 0.5
+}
+.popup{
+	/*position size*/
+	--height : 96vh;
+	--width : 96vw;
+	z-index : 101;
+	position: fixed;
+	top : calc(50vh - calc(var(--height) / 2));
+	left : calc(50vw - calc(var(--width) / 2));
+	height : var(--height);
+	width : var(--width);
+	
+	/*design*/
+	overflow : hidden;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px 1px gray;
+}
+.popup > .close-button{
+	/*position size*/
+	--size : 20px;
+	position:absolute;
+	top : calc(var(--size)/4);
+	left : calc(var(--width) - var(--size) * 5/4);/*css variables are available in children*/
+	height : var(--size);
+	width : var(--size);
+	
+	/*design*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	color : gray;
+	font-size: var(--size);
+	border-radius: calc(var(--size)/5);
+}
+.popup > .close-button:hover{
+	/*design*/
+	background-color: red;
+	color : white;
+}
+.popup > .content{
+	padding: 10px;
+	text-align: center;
+}
+
+
+/*hide popup*/
+.popup-flag{
+	display: none;
+}
+.popup-flag:not(:checked) + .popup-background{
+	display:none;
+}
+.popup-flag:not(:checked) + * + .popup{
+	display:none;
+}

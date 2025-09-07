@@ -176,6 +176,43 @@ small{
 	padding-left: 10px;
 }
 
+.divCharacterHiddenLinkCasing{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.divCharacterHiddenLink{
+	width: 88;
+	text-align: center;
+	background-color: #f5fcff73;
+}
+
+.aCharacterHiddenLink{
+	color: #00000003;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:link{
+	color: #00000002;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:visited{
+	color: #00000010;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:hover{
+	color: #00000006;
+	text-decoration:none;
+}
+
+.aCharacterHiddenLink:active{
+	color: #00000010;
+	text-decoration:none;
+}
+
 .spanCharacterDialogTie{
 	color: #179983;
 }
@@ -229,43 +266,6 @@ small{
 	margin-bottom: 0px
 	padding-top: 0px;
 	padding-bottom: 0px
-}
-
-.divCharacterHiddenLinkCasing{
-	width: 100%;
-	display: flex;
-	justify-content: flex-end;
-}
-
-.divCharacterHiddenLink{
-	width: 88;
-	text-align: center;
-	background-color: #f5fcff;
-}
-
-.aCharacterHiddenLink{
-	color: #00000003;
-	text-decoration:none;
-}
-
-.aCharacterHiddenLink:link{
-	color: #00000002;
-	text-decoration:none;
-}
-
-.aCharacterHiddenLink:visited{
-	color: #00000010;
-	text-decoration:none;
-}
-
-.aCharacterHiddenLink:hover{
-	color: #00000006;
-	text-decoration:none;
-}
-
-.aCharacterHiddenLink:active{
-	color: #00000010;
-	text-decoration:none;
 }
 
 /* ポップアップ用
